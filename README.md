@@ -106,3 +106,8 @@ The legacy `/admin` route intentionally returns a 404 response. The editor route
 ## License
 
 See the included [`LICENSE`](./LICENSE) file.
+
+## References
+
+* [Netlify Documentation](https://docs.netlify.com/)
+* [Firebase Documentation](https://firebase.google.com/docs)
