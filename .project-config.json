@@ -1,0 +1,34 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [],
+  "dev_command": "pnpm run dev",
+  "env_vars": {},
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "https://7f0548f6b28a1758d9bf7be630d36cb4.artifacts.cloudflare.net/git/prod/N26cHeiHMKFBu7PX9Lijd5.git",
+    "expiration": "2026-08-22T06:34:24.110Z",
+    "token": "art_v2_x_964c7b3f7e24ff18fd4758b40533f40344ac46db?expires=1787380464",
+    "backend": "GIT_BACKEND_ARTIFACTS"
+  },
+  "name": "nfc-profile-card",
+  "path": "/home/ubuntu/nfc-profile-card",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "JcGkLymSzDmwFiqV3vwuUf",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "2D23bgXP6XoVsErwaG5sbg",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "S M Sujauddula Sojib",
+    "OWNER_OPEN_ID": "YXayDQjug49Shhud8UWeAC",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "a977966d-946e-43b2-8cd5-95c2272fb9d2",
+    "VITE_APP_ID": "N26cHeiHMKFBu7PX9Lijd5",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "NFC Profile Card",
+    "VITE_FRONTEND_FORGE_API_KEY": "NGKfiHd6sW6EyG7QmtF5oq",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}

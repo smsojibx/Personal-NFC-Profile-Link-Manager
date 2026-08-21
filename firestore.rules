@@ -1,0 +1,14 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isOwner() {
+      return request.auth != null
+        && request.auth.token.email == "OWNER_EMAIL@example.com";
+    }
+
+    match /profiles/{profileId} {
+      allow read: if true;
+      allow create, update, delete: if isOwner();
+    }
+  }
+}
