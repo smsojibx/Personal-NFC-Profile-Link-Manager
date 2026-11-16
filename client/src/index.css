@@ -390,6 +390,7 @@ button {
   z-index: 1;
   transform: translateZ(6px);
   pointer-events: none;
+  mix-blend-mode: multiply;
 }
 
 .nfc-card__monogram {
@@ -427,12 +428,15 @@ button {
 }
 
 .nfc-card__initial {
-  font-family: "Parisienne", "Sora", cursive;
-  font-size: 13cqw;
+  font-family: "Alex Brush", "Sora", cursive;
+  font-size: 17cqw;
   line-height: 1;
   color: #fff;
-  transform: translateY(0.6cqw);
-  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.28);
+  transform: translateY(0.4cqw);
+  -webkit-text-stroke: 0.45cqw #fff;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  transform: skewX(-7deg);
 }
 
 .nfc-card__divider {
@@ -481,7 +485,7 @@ button {
 }
 
 .nfc-card__handle-text {
-  font-family: "Parisienne", cursive;
+  font-family: "Sacramento", cursive;
   font-size: 3.7cqw;
   color: #16344f;
   letter-spacing: 0.01em;
